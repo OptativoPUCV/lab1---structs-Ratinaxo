@@ -158,3 +158,9 @@ test.c:140:17: error: initialization of ‘Vector *’ from ‘int’ makes poin
 cc1: all warnings being treated as errors
 Compilation failed
 dacd6aa
+Fri 17 Mar 2023 06:32:45 PM UTC: 
+ exercises.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ tests:  3|4
+total_score: 30/70
+669095b
