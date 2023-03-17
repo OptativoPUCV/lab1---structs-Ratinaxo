@@ -86,3 +86,9 @@ exercises.c:81:11: error: unused variable ‘vector’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 60a7cb1
+Fri 17 Mar 2023 06:25:57 PM UTC: 
+ exercises.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+ tests:  3|4
+total_score: 30/70
+4ed4dd5
