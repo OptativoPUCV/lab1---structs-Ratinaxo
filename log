@@ -114,3 +114,14 @@ exercises.c:85:11: error: ‘vector’ is a pointer; did you mean to use ‘->�
       |           ->
 Compilation failed
 21bd2b4
+Fri 17 Mar 2023 06:27:40 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:85:11: error: ‘*vector.datos’ may be used uninitialized [-Werror=maybe-uninitialized]
+   85 |     vector->datos[i] = 0;
+      |     ~~~~~~^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+c22b90f

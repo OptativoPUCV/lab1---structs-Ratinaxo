@@ -82,7 +82,7 @@ Vector * crearVector(int n) {
   if (vector == NULL)return NULL;
   vector->capacidad = n;
   for (int i = 0; i <= vector->capacidad; i++){
-    vector.datos[i]= 0;
+    vector->datos[i] = 0;
   }
   return vector;
 }
