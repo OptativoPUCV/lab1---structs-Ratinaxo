@@ -103,3 +103,14 @@ exercises.c:85:11: error: ‘*vector.datos’ may be used uninitialized [-Werror
 cc1: all warnings being treated as errors
 Compilation failed
 30932db
+Fri 17 Mar 2023 06:27:18 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:85:11: error: ‘vector’ is a pointer; did you mean to use ‘->’?
+   85 |     vector.datos[i]= 0;
+      |           ^
+      |           ->
+Compilation failed
+21bd2b4
