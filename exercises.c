@@ -81,7 +81,7 @@ Vector * crearVector(int n) {
   Vector *vector = (Vector*) malloc(sizeof (Vector));
   if (vector == NULL)return NULL;
   vector->capacidad = n;
-  for (int i = 0; i <= vector->capacidad; i++){
+  for (int i = 0; i < vector->capacidad; i++){
     vector->datos[i] = 0;
   }
   return vector;
