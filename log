@@ -75,3 +75,14 @@ Fri 17 Mar 2023 06:12:57 PM UTC:
  tests:  3|4
 total_score: 30/70
 6e2a6c7
+Fri 17 Mar 2023 06:17:08 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:81:11: error: unused variable ‘vector’ [-Werror=unused-variable]
+   81 |   Vector *vector = (Vector*) malloc(sizeof (Vector));
+      |           ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+60a7cb1
