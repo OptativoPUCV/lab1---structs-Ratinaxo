@@ -147,3 +147,14 @@ exercises.c:85:11: error: ‘*vector.datos’ may be used uninitialized [-Werror
 cc1: all warnings being treated as errors
 Compilation failed
 6520a6c
+Fri 17 Mar 2023 06:32:12 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+test.c: In function ‘test_creaV’:
+test.c:140:17: error: implicit declaration of function ‘crearVector’ [-Werror=implicit-function-declaration]
+  140 |     Vector *v = crearVector(size);
+      |                 ^~~~~~~~~~~
+test.c:140:17: error: initialization of ‘Vector *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+cc1: all warnings being treated as errors
+Compilation failed
+dacd6aa
