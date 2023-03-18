@@ -224,3 +224,9 @@ Sat 18 Mar 2023 01:27:01 AM UTC:
  tests:  7|1
 total_score: 60/70
 5b80f84
+Sat 18 Mar 2023 01:49:09 AM UTC: 
+ exercises.c | 8 ++------
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+ tests:  7|1
+total_score: 60/70
+3c65762
