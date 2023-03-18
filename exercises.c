@@ -124,6 +124,10 @@ Use las operaciones implementadas de vectores para
 sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
-  c->datos[0] = (a1+a2);
-  c->datos[1] = (b1+b2);
+  for (int i = 0; i < c->capacidad; i++){
+    if(i % 2 != 0)
+      c->datos[i] = a1 + b1;
+    if (i % 2 == 0)
+      c->datos[i] = a2 + b2;
+  }
 }
